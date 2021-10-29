@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+.memes-grid {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr ;
+    grid-auto-rows: minmax(200px, max-content);
+}
+
+.changeColumns{
+    background-color: #121010;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.changeColumns h4 {
+    color: #ce3d3d;
+    font-family: 'PT Serif',serif;
+    padding-top: 1em;
+}
+
+.changeColumns p {
+    color: #ce3d3d;
+    font-family: 'PT Serif',serif;
+    font-size: 0.7em;
+}
+
+.memes-grid i {
+    cursor: pointer;
+}
+
+#rightColumnChangeIndex {
+    cursor: pointer;
+}
+
+#leftColumnChangeIndex {
+    cursor: pointer;
+}
